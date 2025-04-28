@@ -86,7 +86,7 @@ datasources:
   type: influxdb
   access: proxy
   url: https://InfluxDB:8086
-  user: $dbuser
+  user: zockerecke
   database: db01
   basicAuth: false
   isDefault: true
@@ -96,7 +96,7 @@ datasources:
      dbName: db01
      tlsSkipVerify: true
   secureJsonData:
-    password: $dbpass
+    password: CEkFurTX
     tlsCACert: ""
     tlsClientCert: ""
     tlsClientKey: ""
